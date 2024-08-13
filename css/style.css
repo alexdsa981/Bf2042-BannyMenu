@@ -118,14 +118,6 @@ header .btn-microsoft a:hover {
     font-family: 'Open Sans', sans-serif;
 }
 
-.empresa,
-.mision {
-    background-color: #f8f9fa;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    max-width: 540px;
-}
-
 .aprobado {
     margin-top: 20px;
 }
@@ -177,22 +169,27 @@ header .btn-microsoft a:hover {
 .destacados .contenedor-destacados .card {
     color: white;
     background-color: rgba(0, 0, 0, 0);
-    border: none;
+    border: solid;
+    border-width: 1px;
+    border-radius: 0px;
+    padding: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
+    transition: 0.2s;
 }
 
-.destacados .contenedor-destacados .card img {
-    border-radius: 20px;
+.destacados .contenedor-destacados .card:hover {
+    color: black;
+    background-color: white;
+}
+
+.destacados .contenedor-destacados .card .card-text {
+    text-align: center;
 }
 
 .destacados .contenedor-destacados .card h5 {
     font-weight: 700;
-}
-
-.nosotros .container {
-    padding: 0%;
 }
 
 .eligenos {
@@ -220,6 +217,36 @@ header .btn-microsoft a:hover {
     color: #333;
 }
 
+.nosotros{
+    color: white;
+}
+.nosotros .titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+.nosotros .section-title {
+    color: white;
+}
+.nosotros .line{
+    background-color: white;
+}
+.nosotros-bg {
+    background-image: url('../images/bgnosotros.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nosotros-bg .nosotros-content {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contactanos .titulo{
+    margin-bottom: 20px;
+}
+
 
 @media only screen and (min-width: 768px) {
     .carousel-caption h5 {
@@ -239,22 +266,6 @@ header .btn-microsoft a:hover {
         line-height: 1.6;
         font-size: 14px;
         margin: auto;
-    }
-
-
-    .valores-content .container {
-        max-width: 540px;
-    }
-
-    .nosotros .container {
-        max-width: 800px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .empresa,
-    .mision {
-        max-width: 800px;
     }
 
     .destacados .contenedor-destacados {
@@ -288,7 +299,13 @@ header .btn-microsoft a:hover {
 
     header .navbar .btn-microsoft:hover {
         border: none;
-        background-color: #00aeffc0;;
+        background-color: #00aeffc0;
+        ;
+    }
+
+    .nosotros-content {
+        padding-top: 40px;
+        padding-bottom: 30px;
     }
 
 }
