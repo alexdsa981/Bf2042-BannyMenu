@@ -1,0 +1,330 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px;
+}
+
+p,
+a,
+li,
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: #f8f9fa;
+}
+
+header .btn-microsoft a {
+    color: #0076d1c5;
+}
+
+header .btn-microsoft a:hover {
+    color: #00aeffc0;
+}
+
+
+
+
+
+.container {
+    padding: 20px;
+}
+
+
+@keyframes expand {
+    0% {
+        width: 60px;
+    }
+
+    50% {
+        width: 100px;
+        /* Cambia este valor según tu preferencia */
+    }
+
+    100% {
+        width: 60px;
+    }
+}
+
+.line {
+    width: 60px;
+    height: 3px;
+    background-color: #005EA4;
+    margin: 0px auto 0px auto;
+    animation: expand 2s infinite;
+}
+
+
+.carousel-inner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.section-arrow--gray {
+    border-color: rgba(48, 54, 58, .95) #fff #fff;
+}
+
+.section-arrow {
+    border-style: solid;
+    border-color: #ffffff transparent transparent;
+    border-width: 30px 30vw 0;
+    max-width: 100%;
+}
+
+.section-arrow2 {
+    border-style: solid;
+    border-color: transparent white;
+    border-width: 30px 30vw 0px;
+    max-width: 100%;
+}
+
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+}
+
+.carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+    margin: auto;
+}
+
+
+.section-title {
+    font-size: 2rem;
+    color: #005EA4;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.empresa,
+.mision {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    max-width: 540px;
+}
+
+.aprobado {
+    margin-top: 20px;
+}
+
+.aprobado .logosaprobacion {
+    width: 100%;
+    text-align: center;
+}
+
+.aprobado img {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 250px;
+    padding: 5px 10px 5px 10px;
+}
+
+.aprobado img {
+    max-height: 90px;
+}
+
+.destacados-bg {
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.destacados-bg .destacados-content {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.destacados .contenedor-destacados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destacados .section-title {
+    padding-top: 20px;
+    color: white;
+}
+
+.destacados .line {
+    background-color: white;
+}
+
+.destacados .contenedor-destacados .card {
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.destacados .contenedor-destacados .card img {
+    border-radius: 20px;
+}
+
+.destacados .contenedor-destacados .card h5 {
+    font-weight: 700;
+}
+
+.nosotros .container {
+    padding: 0%;
+}
+
+.eligenos {
+    text-align: center;
+}
+
+.eligenos .cualidades {
+    margin-top: 20px;
+}
+
+
+.eligenos .cualidades .icon-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.eligenos .cualidades i {
+    font-size: 36px;
+    color: #333;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
+
+    .carousel-caption a {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 14px;
+        margin: auto;
+    }
+
+
+    .valores-content .container {
+        max-width: 540px;
+    }
+
+    .nosotros .container {
+        max-width: 800px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .empresa,
+    .mision {
+        max-width: 800px;
+    }
+
+    .destacados .contenedor-destacados {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .destacados .contenedor-destacados .card {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+    header .navbar .btn-microsoft {
+        border-color: rgba(0, 0, 0, 0.226);
+        border-width: 1px;
+        border-style: solid;
+        transition: 1s;
+    }
+
+    header .navbar .btn-microsoft a:hover {
+        color: white;
+    }
+
+    header .navbar .btn-microsoft i:hover {
+        color: white;
+    }
+
+    header .navbar .btn-microsoft:hover {
+        border: none;
+        background-color: #00aeffc0;;
+    }
+
+}
+
+@media only screen and (min-width: 1060px) {
+    .carousel-caption h5 {
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
+
+    .carousel-caption a {
+        padding: 12px 18px;
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        width: 100%;
+        line-height: 1.6;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .aprobado {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .aprobado .contenedorIMG {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    header .navbar .listanav {
+        width: 100%;
+    }
+
+}
