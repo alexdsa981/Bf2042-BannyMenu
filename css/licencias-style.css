@@ -1,0 +1,29 @@
+.licencia{
+    margin-top: 10px;
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+}
+
+
+.licencia-bg {
+    background-image: url('../images/bgoffice.png');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.licencia-bg-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh; 
+}
+.licencia-bg-caption{
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+.contenedor-licencias{
+    text-align: center;
+}
