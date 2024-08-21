@@ -11,40 +11,42 @@
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
+
 .licencia-bg-texto .titulo {
     font-size: 40px;
 }
 
 .licencia-bg-texto {
     margin-top: 20px;
+    margin-bottom: 0px;
     color: white;
 }
 
 
-/*
 .licencia-bg-cualidades{
-    margin-top: 20px;
     color: white;
 }
 .licencia-bg-cualidades .eligenos .cualidades .icon-circle {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #ffffff79;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 15px;
+    margin: 0 auto 7px;
 }
 
 .licencia-bg-cualidades .eligenos .cualidades i {
-    font-size: 36px;
+    font-size: 18px;
     color: #000000;
 }
 .licencia-bg-cualidades .eligenos .cualidades h5{
-    font-size: 18px;
+    font-size: 14px;
 }
 .cualidades .texto{
     display: none;
@@ -53,5 +55,8 @@
     padding-left: 0px;
     padding-right: 0px;
 }
-*/
+@media only screen and (min-width: 960px) {
+
+    
+}
 @media only screen and (min-width: 1060px) {}
