@@ -168,8 +168,8 @@ header .btn-microsoft a:hover {
 }
 
 .destacados .contenedor-destacados .card {
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    background-color: white;
     border: solid;
     border-width: 1px;
     border-radius: 0px;
@@ -218,21 +218,25 @@ header .btn-microsoft a:hover {
     color: #333;
 }
 
-.nosotros{
+.nosotros {
     color: white;
 }
+
 .nosotros .titulo {
     display: flex;
     flex-direction: column;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
 }
+
 .nosotros .section-title {
     color: white;
 }
-.nosotros .line{
+
+.nosotros .line {
     background-color: white;
 }
+
 .nosotros-bg {
     background-image: url('../images/bgnosotros.webp');
     background-size: cover;
@@ -244,7 +248,7 @@ header .btn-microsoft a:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.contactanos .titulo{
+.contactanos .titulo {
     margin-bottom: 20px;
 }
 
@@ -343,6 +347,11 @@ header .btn-microsoft a:hover {
 
     header .navbar .listanav {
         width: 100%;
+    }
+
+    .destacados .contenedor-destacados .card {
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
     }
 
 }
