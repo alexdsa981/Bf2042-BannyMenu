@@ -31,8 +31,8 @@
     color: white;
 }
 .licencia-bg-cualidades .eligenos .cualidades .icon-circle {
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     background-color: #ffffff79;
     display: flex;
@@ -42,11 +42,11 @@
 }
 
 .licencia-bg-cualidades .eligenos .cualidades i {
-    font-size: 18px;
+    font-size: 36px;
     color: #000000;
 }
 .licencia-bg-cualidades .eligenos .cualidades h5{
-    font-size: 14px;
+    font-size: 16px;
 }
 .cualidades .texto{
     display: none;
