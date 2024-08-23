@@ -115,6 +115,19 @@
         flex-direction: column;
         justify-content: center;
     }
+    .contenedor-licencias .card{
+        
+        border-radius: 20px;
+        border-style: none;
+        transition: 1s;
+    }
+
+    .contenedor-licencias .card:hover{
+        box-shadow: inset 0 0 0 3px rgba(0, 0, 0, 0.3);
+        border-width: 1px;
+        border-color: rgb(249,56,0);
+    }
+
 }
 
 @media only screen and (min-width: 1060px) {}
