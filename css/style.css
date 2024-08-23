@@ -141,7 +141,7 @@ header .btn-microsoft a:hover {
 }
 
 .destacados-bg {
-    background-image: url('../images/bg.jpg');
+    background-image: url('../images/bg/bgdestacados.jpg');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -238,7 +238,7 @@ header .btn-microsoft a:hover {
 }
 
 .nosotros-bg {
-    background-image: url('../images/bgnosotros.webp');
+    background-image: url('../images/bg/bgnosotros.webp');
     background-size: cover;
     background-attachment: fixed;
 }
