@@ -13,7 +13,7 @@
 }
 
 .licencia-bg-content {
-    height: 90vh;
+    height: 100%;
     padding: 20px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
@@ -90,6 +90,7 @@
 
 .contenedor-licencias .card {
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .contenedor-licencias img {
