@@ -1,4 +1,4 @@
-.licencia-bg {
+.banner-bg {
     position: relative;
 }
 
@@ -8,7 +8,7 @@
     height: auto;
 }
 
-.licencia-bg-content {
+.banner-bg-content {
     position: absolute;
     text-align: center;
     top: 0;
@@ -23,26 +23,27 @@
     transition: background-color 1s ease; 
 }
 
-.licencia-bg-content:hover {
+.banner-bg-content:hover {
     background-color: rgba(0, 0, 0, 0.8);
 
 }
-.licencia-bg-content:hover .eligenos .cualidades .icon-circle {
+.banner-bg-content:hover .eligenos .cualidades .icon-circle {
     background-color: #ffffffce;
 }
-.licencia-bg-content:hover .licencia-bg-texto .titulo {
+.banner-bg-content:hover .banner-bg-texto .titulo {
+    font-size: 25px;
     color: #00bfff; 
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
 }
 
 
-.licencia-bg-texto {
+.banner-bg-texto {
     margin-top: 20px;
     margin-bottom: 0px;
     color: white;
 }
 
-.licencia-bg-texto .titulo {
+.banner-bg-texto .titulo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -51,11 +52,11 @@
 }
 
 
-.licencia-bg-cualidades {
+.banner-bg-cualidades {
     color: white;
 }
 
-.licencia-bg-cualidades .eligenos .cualidades .icon-circle {
+.banner-bg-cualidades .eligenos .cualidades .icon-circle {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -68,18 +69,18 @@
     
 }
 
-.licencia-bg-cualidades .eligenos .cualidades i {
+.banner-bg-cualidades .eligenos .cualidades i {
     font-size: 36px;
     color: #000000;
 }
 
-.licencia-bg-cualidades .eligenos .cualidades h5 {
+.banner-bg-cualidades .eligenos .cualidades h5 {
     text-transform: uppercase;
     font-size: 16px;
 }
 
 
-.licencia-bg-cualidades .eligenos .cualidad {
+.banner-bg-cualidades .eligenos .cualidad {
     padding-left: 0px;
     padding-right: 0px;
     margin-bottom: 20px;
