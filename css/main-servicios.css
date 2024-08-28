@@ -21,6 +21,41 @@
     width: 200px;
 }
 
+
+.servicio-recomendacion-contenedor {
+    background-color: rgba(165, 165, 165, 0.192);
+    transition: 1s;
+}
+.servicio-recomendacion-contenedor:hover {
+    background-color: rgba(165, 165, 165, 0.534);
+}
+
+
+.servicio-recomendacion .titulo {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.servicio-recomendacion {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .recomendacion-contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .servicio-recomendacion {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+}
+
+
 @media only screen and (min-width: 768px) {
     .contenedor-servicios .card {
         margin-bottom: 20px;

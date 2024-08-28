@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 80px;
+}
+
+p,
+a,
+li,
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    padding: 20px;
+}
+
+header {
+    background-color: #f8f9fa;
+}
+
+header #btn-microsoft a {
+    color: #0076d1c5;
+}
+
+header #btn-microsoft a:hover {
+    color: #00aeffc0;
+}
+
+.listanav .nav-item:not(.btn-microsoft) .nav-link {
+    position: relative;
+    display: inline-block;
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.listanav .nav-item:not(.btn-microsoft) .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.listanav .nav-item:not(.btn-microsoft) .nav-link:hover::after {
+    visibility: visible;
+    width: 100%;
+}
+
+.listanav .nav-item:not(.btn-microsoft) .nav-link:hover {
+    color: #000;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #005EA4;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@keyframes expand {
+    0% {
+        width: 30px;
+    }
+
+    50% {
+        width: 60px;
+
+    }
+
+    100% {
+        width: 30px;
+    }
+}
+
+.line {
+    width: 60px;
+    height: 3px;
+    background-color: #005EA4;
+    margin: 0px auto 0px auto;
+    animation: expand 2s infinite;
+}
+
+.eligenos {
+    text-align: center;
+}
+
+.eligenos .cualidades {
+    margin-top: 20px;
+}
+
+
+.eligenos .cualidades .icon-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.eligenos .cualidades i {
+    font-size: 36px;
+    color: #333;
+}
+
+@media only screen and (min-width: 960px) {
+    header .navbar .btn-microsoft {
+        border-color: rgba(0, 0, 0, 0.226);
+        border-width: 1px;
+        border-style: solid;
+        transition: 1s;
+    }
+
+    header .navbar .btn-microsoft a:hover {
+        color: white;
+    }
+
+    header .navbar .btn-microsoft i:hover {
+        color: white;
+    }
+
+    header .navbar .btn-microsoft:hover {
+        border: none;
+        background-color: #00aeffc0;
+        ;
+    }
+
+    @media only screen and (min-width: 1060px) {
+        header .navbar .listanav {
+            width: 100%;
+        }
+
+    }
+}
