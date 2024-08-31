@@ -102,6 +102,7 @@
 }
 
 .destacados .contenedor-destacados .card {
+    height: 500px;
     color: black;
     background-color: white;
     border: solid;
@@ -127,6 +128,10 @@
     font-weight: 700;
 }
 
+.eligenos .cualidades i {
+    font-size: 36px;
+    color: #003f70;
+}
 
 
 .nosotros {
