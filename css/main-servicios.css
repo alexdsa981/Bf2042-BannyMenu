@@ -21,6 +21,13 @@
     width: 200px;
     border-radius: 20px;
 }
+.contenedor-servicios .introContainer{
+    text-align: center;
+    padding-top: 0px;
+}
+.contenedor-servicios #imagenTD{
+    width: 300px;
+}
 
 
 .servicio-recomendacion-contenedor {
@@ -52,6 +59,9 @@
     .servicio-recomendacion {
         padding-left: 100px;
         padding-right: 100px;
+    }
+    .contenedor-servicios #imagenTD{
+        width: 500px;
     }
 
 }
