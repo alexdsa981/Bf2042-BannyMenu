@@ -122,12 +122,11 @@
 }
 
 .aprobado img {
-    margin-left: 20px;
-    width: 250px;
-}
-
-.aprobado img {
-    max-height: 120px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 40px;
+    padding: 5px 10px 5px 10px;
 }
 
 .destacados-bg {
@@ -224,6 +223,12 @@
     margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 400px) {
+    #banner-index .titulo {
+        font-size: 50px;
+    }
+        
+}
 
 @media only screen and (min-width: 768px) {
     .destacados .contenedor-destacados {
@@ -235,13 +240,6 @@
     .destacados .contenedor-destacados .card {
         margin-left: 20px;
         margin-right: 20px;
-    }
-    .aprobado img {
-        margin-bottom: 20px;
-        margin-right: 10px;
-        margin-left: 10px;
-        width: 250px;
-        padding: 5px 10px 5px 10px;
     }
 
 }
