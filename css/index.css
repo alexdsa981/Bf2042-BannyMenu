@@ -64,10 +64,7 @@
 
 .aprobado img {
     margin-bottom: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
     width: 250px;
-    padding: 5px 10px 5px 10px;
 }
 
 .aprobado img {
@@ -179,6 +176,13 @@
     .destacados .contenedor-destacados .card {
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .aprobado img {
+        margin-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 250px;
+        padding: 5px 10px 5px 10px;
     }
 
 }
