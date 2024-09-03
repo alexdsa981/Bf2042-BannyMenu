@@ -1,5 +1,6 @@
 .banner-bg {
     position: relative;
+    cursor: default;
 }
 
 .fondo-img {
@@ -20,21 +21,53 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.7);
-    transition: background-color 1s ease; 
+    transition: background-color 1s ease;
 }
 
 .banner-bg-content:hover {
     background-color: rgba(0, 0, 0, 0.9);
 
 }
+
 .banner-bg-content:hover .eligenos .cualidades .icon-circle {
     background-color: #ffffffce;
 }
+
 .banner-bg-content:hover .banner-bg-texto .titulo {
     font-size: 25px;
-    color: #00bfff; 
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6); 
+    color: #00bfff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .banner-bg-texto {
@@ -65,8 +98,8 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto 7px;
-    transition: background-color 1s ease; 
-    
+    transition: background-color 1s ease;
+
 }
 
 .banner-bg-cualidades .eligenos .cualidades i {
@@ -85,3 +118,5 @@
     padding-right: 0px;
     margin-bottom: 20px;
 }
+
+

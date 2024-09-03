@@ -1,3 +1,62 @@
+
+#banner-index .titulo {
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: default;
+}
+
+#banner-index .texto {
+    font-size: 28px;
+    line-height: 1.5;
+    color: #999898;
+    transition: 1s;
+    cursor: default;
+}
+#banner-index:hover .texto {
+    color: white;
+    transition: 1s;
+    cursor: default;
+}
+.scroll-down-indicator {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    color: #fff;
+    animation: floating 2s infinite ease-in-out;
+    cursor: default;
+}
+@keyframes floating {
+    0%, 100% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-15px);
+    }
+}
+
+.animated-graphic img {
+    max-width: 80%;
+    animation: pulse 3s infinite ease-in-out;
+}
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+.banner-right{
+    display: none;
+}
+
+
+
+
+
 .carousel-inner:before {
     content: '';
     position: absolute;
@@ -63,12 +122,12 @@
 }
 
 .aprobado img {
-    margin-bottom: 20px;
+    margin-left: 20px;
     width: 250px;
 }
 
 .aprobado img {
-    max-height: 90px;
+    max-height: 120px;
 }
 
 .destacados-bg {

@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="icon" href="images/ms.png" type="image/png">
     <title>MSystem Perú - Soluciones TI</title>
@@ -69,19 +70,58 @@
 
 
     <main>
+
+
+
+
+        <div class="banner-bg">
+
+
+            <picture>
+                <!-- desktop -->
+                <source media="(min-width: 992px)" srcset="images/carrusel/desktop/cloud.jpg">
+
+                <!-- tablets -->
+                <source media="(min-width: 650px)" srcset="images/carrusel/tablet/cloud.jpg">
+
+                <!-- movil -->
+                <img src="images/carrusel/mobile/cloud.jpg" class="fondo-img" id="myImage">
+            </picture>
+
+
+
+
+            <div class="banner-bg-content" id="banner-index">
+                <div class="banner-bg-texto container">
+                    <div class="row">
+                        <div class="col-12 col-md-12">
+                            <h1 class="titulo">MSYSTEM</h1>
+                            <p class="texto">Expertos en soluciones TI para clínicas: soporte, asesoría y más</p>
+                        </div>
+                    </div>
+                    <div class="scroll-down-indicator">
+                        <p style="font-size: 16px; margin-bottom: 0px;">Conócenos</p>
+                        <i class="bi bi-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--
         <div class="carrusel" id="inicio">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
 
                     <div class="carousel-item active" data-bs-interval="12000">
-                        <picture>
-                            <!-- desktop -->
-                            <source media="(min-width: 992px)" srcset="images/carrusel/desktop/cloud.jpg">
+                        <picture> -->
+        <!-- desktop -->
+        <source media="(min-width: 992px)" srcset="images/carrusel/desktop/cloud.jpg">
 
-                            <!-- tablets -->
-                            <source media="(min-width: 650px)" srcset="images/carrusel/tablet/cloud.jpg">
+        <!-- tablets -->
+        <source media="(min-width: 650px)" srcset="images/carrusel/tablet/cloud.jpg">
 
-                            <!-- movil -->
+        <!-- movil -->
+        <!--
                             <img src="images/carrusel/mobile/cloud.jpg" class="d-block w-100" alt="Respaldo de Datos">
                         </picture>
                         <div class="carousel-caption">
@@ -104,7 +144,7 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
-        </div>
+        </div>-->
 
         <section class="aprobado">
             <div class="col-12 text-center">
@@ -112,12 +152,13 @@
                 <div class="line"></div>
             </div>
             <div class="logosaprobacion">
-                <img src="images/aprobado/hp.png" alt="hp" style="width: auto;">
-                <img src="images/aprobado/amd.png" alt="amd" style="width: auto;">
+                <img src="images/aprobado/hp.png" alt="hp" style="width: auto;  height: 80px;">
+                <img src="images/aprobado/epson.png" alt="hp" style="width: auto; height: 40px;">
+                <img src="images/aprobado/amd.png" alt="amd" style="width: auto; height: 90px;">
                 <img src="images/aprobado/microsoft.webp" alt="microsoft" style="width: auto; height: 50px;">
                 <img src="images/aprobado/lenovo.png" alt="lenovo" style="width: auto; height: 60px;">
-                <img src="images/aprobado/sophos.webp" alt="sophos" style="width: auto;">
-                
+                <img src="images/aprobado/sophos.webp" alt="sophos" style="width: auto;  height: 110px;">
+
             </div>
         </section>
 
