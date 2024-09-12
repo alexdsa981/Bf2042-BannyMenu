@@ -183,6 +183,10 @@
     font-weight: 700;
 }
 
+.contenedor-destacados .botonMas{
+    margin-bottom: 30px;
+}
+
 .eligenos .cualidades i {
     font-size: 36px;
     color: #003f70;
