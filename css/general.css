@@ -24,7 +24,7 @@ header #btn-microsoft a {
 }
 
 header #btn-microsoft a:hover {
-    color: #00aeffc0;
+    color: white;
 }
 
 .listanav .nav-item:not(.btn-microsoft) .nav-link {

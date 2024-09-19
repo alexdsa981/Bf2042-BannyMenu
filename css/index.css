@@ -157,7 +157,7 @@
 }
 
 .destacados .contenedor-destacados .card {
-    height: 500px;
+    height: 520px;
     color: black;
     background-color: white;
     border: solid;
@@ -169,10 +169,22 @@
     text-align: center;
     transition: 0.2s;
 }
+#paqueteCompleto{
+    background: rgba(255, 217, 0, 0.671);
+    transition: 0.2s;
+    
+}
+#paqueteCompleto:hover{
+    background: #FFD700;
+    transform: scale(1.05);
+    
+}
+
 
 .destacados .contenedor-destacados .card:hover {
     color: black;
     background-color: white;
+    transform: scale(1.05);
 }
 
 .destacados .contenedor-destacados .card .card-text {
@@ -184,7 +196,10 @@
 }
 
 .contenedor-destacados .botonMas{
-    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.contenedor-destacados .botonMas a{
+    width: 96.66px;
 }
 
 .eligenos .cualidades i {
