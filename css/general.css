@@ -33,6 +33,7 @@ header #btn-microsoft a:hover {
     color: var(--bs-nav-link-color);
     text-decoration: none;
     transition: color 0.3s ease-in-out;
+    color: #000;
 }
 
 .listanav .nav-item:not(.btn-microsoft) .nav-link::after {
@@ -42,7 +43,7 @@ header #btn-microsoft a:hover {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #000;
+    background-color: #000000b2;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
 }
@@ -53,7 +54,7 @@ header #btn-microsoft a:hover {
 }
 
 .listanav .nav-item:not(.btn-microsoft) .nav-link:hover {
-    color: #000;
+    color: #000000b2;
 }
 
 .section-title {
