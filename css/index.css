@@ -1,12 +1,13 @@
+
 #banner-index .titulo {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
     letter-spacing: 2px;
     cursor: default;
 }
 
 #banner-index .texto {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.5;
     color: #999898;
     transition: 1s;
@@ -167,7 +168,7 @@
 }
 
 .destacados .contenedor-destacados .card {
-    height: 520px;
+    height: 480px;
     color: black;
     background-color: white;
     border: solid;
@@ -200,7 +201,7 @@
 }
 
 .destacados .contenedor-destacados .card .card-text {
-    text-align: center;
+    text-align: justify;
 }
 
 .destacados .contenedor-destacados .card h5 {
@@ -208,7 +209,7 @@
 }
 
 .contenedor-destacados .botonMas {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .contenedor-destacados .botonMas a {
@@ -275,6 +276,19 @@
 }
 
 @media only screen and (min-width: 768px) {
+    #banner-index .titulo {
+        font-size: 70px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: default;
+    }
+    #banner-index .texto {
+        font-size: 24px;
+        line-height: 1.5;
+        color: #999898;
+        transition: 1s;
+        cursor: default;
+    }
     .destacados .contenedor-destacados {
         flex-direction: row;
         align-items: center;
@@ -289,6 +303,19 @@
 }
 
 @media only screen and (min-width: 960px) {
+    #banner-index .titulo {
+        font-size: 70px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: default;
+    }
+    #banner-index .texto {
+        font-size: 24px;
+        line-height: 1.5;
+        color: #999898;
+        transition: 1s;
+        cursor: default;
+    }
     .nosotros-content {
         padding-top: 40px;
         padding-bottom: 30px;
@@ -306,7 +333,7 @@
         cursor: default;
     }
     #banner-index .texto {
-        font-size: 28px;
+        font-size: 24px;
         line-height: 1.5;
         color: #999898;
         transition: 1s;
