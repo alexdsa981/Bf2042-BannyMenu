@@ -20,7 +20,7 @@ header {
 }
 
 header #btn-microsoft a {
-    color: #0076d1c5;
+    color: #f20908;
 }
 
 header #btn-microsoft a:hover {
@@ -132,7 +132,7 @@ header #btn-microsoft a:hover {
 
     header .navbar .btn-microsoft:hover {
         border: none;
-        background-color: #00aeffc0;
+        background-color: #f20908;
         ;
     }
 
