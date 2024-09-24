@@ -182,7 +182,9 @@
 .contenedor-destacados .botonMas a {
     width: 96.66px;
 }
-
+.eligenos .cualidades .col-md-3{
+    padding: 20px;
+}
 .eligenos .cualidades i {
     font-size: 36px;
     color: #a30b00;
