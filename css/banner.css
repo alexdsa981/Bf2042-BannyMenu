@@ -30,14 +30,23 @@
 }
 
 .banner-bg-content:hover .eligenos .cualidades .icon-circle {
-    background-color: #ffffffce;
+    background-color: #ffebe9;
+}
+.banner-bg-content:hover .eligenos .cualidades i {
+    color: #c70d00;
 }
 
 .banner-bg-content:hover .banner-bg-texto .titulo {
-    font-size: 25px;
+    font-size: 30px;
     color: #ff1100;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
+
+
+.banner-bg-content:hover .banner-bg-texto .texto {
+    
+}
+
 
 
 
@@ -105,6 +114,7 @@
 .banner-bg-cualidades .eligenos .cualidades i {
     font-size: 36px;
     color: #000000;
+    transition: 1s;
 }
 
 .banner-bg-cualidades .eligenos .cualidades h5 {
