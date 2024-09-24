@@ -48,6 +48,9 @@
 }
 
 .servicio-recomendacion {
+    text-align: justify;
+}
+.contenedor-btn{
     text-align: center;
 }
 
