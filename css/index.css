@@ -171,8 +171,9 @@
     text-align: justify;
 }
 
-.destacados .contenedor-destacados .card h5 {
+.destacados .contenedor-destacados .card h3 {
     font-weight: 700;
+    font-size: 20px;
 }
 
 .contenedor-destacados .botonMas {
