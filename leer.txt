@@ -1,0 +1,2 @@
+gulp cache
+en terminar cada que se actualiza la pagina
