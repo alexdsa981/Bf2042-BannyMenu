@@ -151,7 +151,8 @@
                         <div class="col-12 col-md-12">
                             <h1 class="titulo">SERVICIOS TI Perú</h1>
                             <p class="texto">
-                                EMPRESA DE TI EN PERÚ, EXPERTOS EN SOLUCIONES INFORMATICAS PARA EMPRESAS, BIENES RAÍCES, CLÍNICAS Y HOSPITALES: SOPORTE,
+                                EMPRESA DE TI EN PERÚ, EXPERTOS EN SOLUCIONES INFORMATICAS PARA EMPRESAS, BIENES RAÍCES,
+                                CLÍNICAS Y HOSPITALES: SOPORTE,
                                 ASESORÍA Y MÁS.</p>
                         </div>
                     </div>
@@ -166,7 +167,14 @@
         <script>
             function scrollToContent() {
                 const contentSection = document.getElementById('destacados');
-                contentSection.scrollIntoView({ behavior: 'smooth' });
+                const offset = 50; // El desplazamiento hacia arriba
+                const topPosition = contentSection.offsetTop - offset;
+
+                // Realiza el scroll suave a la posición deseada
+                window.scrollTo({
+                    top: topPosition,
+                    behavior: 'smooth'
+                });
             }
         </script>
 
@@ -177,6 +185,7 @@
                 <h2 class="section-title">FABRICANTES</h2>
                 <div class="line"></div>
             </div>
+
             <div class="logosaprobacion">
                 <img src="images/aprobado/hp.png" alt="hp" style="height: 60px;">
                 <img src="images/aprobado/epson.png" alt="epson">
@@ -188,7 +197,7 @@
             </div>
         </section>
 
-        <div class="destacados-bg">
+        <div class="destacados-bg" id="destacados">
             <div class="destacados-content">
                 <section class="destacados">
                     <div class="section-arrow section-arrow--gray"></div>
@@ -196,7 +205,7 @@
                         <h2 class="section-title">SERVICIOS TECNOLÓGICOS</h2>
                         <div class="line"></div>
                     </div>
-                    <div class="contenedor-destacados" id="destacados">
+                    <div class="contenedor-destacados">
                         <div class="card" style="width: 18rem;">
                             <img src="images/servicios/soporte.webp" alt="soporte tecnico">
                             <div class="card-body">
